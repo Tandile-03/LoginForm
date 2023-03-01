@@ -1,3 +1,21 @@
-*, *::before, *::after{
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;    font-family: 'Hubballi' cursive;
+    font-family: 'Lato' sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg,#8e2de2, #4a00e0);
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
